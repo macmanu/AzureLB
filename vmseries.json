@@ -10,7 +10,7 @@
     },
     "vmCount": {
        "type": "int",
-       "defaultValue": 2,
+       "defaultValue": 4,
        "metadata": {
            "description": "Number of VM-Series firewall"
        }
@@ -30,7 +30,7 @@
           "Standard_D3_v2",
           "Standard_D4_v2",
           "Standard_D5_v2",
-          "Standard_D14_v2", 
+          "Standard_D14_v2",
           "Standard_A4"
        ],
        "metadata": {
@@ -50,7 +50,7 @@
        },
        "defaultValue": "byol"
     },
-    "virtualNetworkName": { 
+    "virtualNetworkName": {
       "type": "string",
       "metadata": {
         "description": "Name of the Virtual Network (VNET)"
