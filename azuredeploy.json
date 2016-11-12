@@ -156,13 +156,6 @@
            "description": "byol = Bring Your Own License; bundle1 = Bundle 1 PAYG (Hourly); bundle2 = Bundle 2 PAYG (Hourly)"
        }
     },
-      "firewallVmCount": {
-       "type": "int",
-       "defaultValue": 2,
-       "metadata": {
-           "description": "Number of VM-Series firewall"
-       }
-    },
     "firewallVmName": {
        "type": "string",
        "metadata": {
@@ -259,6 +252,7 @@
     "location" : "[resourceGroup().location]",
     "rgname" : "[resourceGroup().name]",
     "LoadBalancerType" : "layer-7",
+    "firewallVmCount" : 4,
     "baseUrl" : "https://raw.githubusercontent.com/PaloAltoNetworks/azure-load-balancer2/master/",
     "nsgURL" : "[concat(variables('baseUrl'),'/nsg-new.json')]",
     "vnetURL" : "[concat(variables('baseUrl'),'/vnet-', parameters('virtualNetworkNewOrExisting'),'.json')]",
