@@ -1,0 +1,27 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.1",
+  "parameters": {
+    "networkSecurityGroupInboundSrcIP": {
+      "value": "199.167.55.50/32"
+    },
+    "virtualNetworkAddressPrefix": {
+      "value": "192.168.0.0/16"
+    },
+    "virtualNetworkNewOrExisting": {
+      "value": "existing"
+    },
+    "username": {
+      "value": "jkwon"
+    },
+    "password": {
+      "value": "Hello!"
+    },
+    "storageAccountName": {
+      "value": "storagejk30"
+    },
+    "storageAccountNewOrExisting": {
+      "value": "existing"
+    }
+  }
+}
